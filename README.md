@@ -7,7 +7,10 @@ This repository contains various machine learning projects focusing on predictiv
 - [Project 1: Geolocation Prediction](#project-1-geolocation-prediction)
 - [Project 2: Crime Analysis](#project-2-crime-analysis)
 - [Project 3: Seismic Risk Assessment](#project-3-seismic-risk-assessment)
+- [Project 4: EV Energy Optimization](#project-4-ev-energy-optimization)
 - [Technologies Used](#technologies-used)
+- [Installation](#installation)
+
 
 ## Project 1: Geolocation Prediction
 
@@ -43,6 +46,15 @@ Working on a project related to machine learning-based seismic risk assessment u
 - Leverages street view images to gather data on building types and conditions.
 - Utilizes machine learning techniques to assess risk and vulnerability.
 
+## Project 4: EV Energy Optimization
+
+### Description
+Currently working on optimizing electric vehicle (EV) energy consumption at the household level. This project aims to enhance energy efficiency and reduce costs associated with EV charging.
+
+### Key Features
+- Analyzes household energy usage patterns to determine optimal charging times and methods.
+- Incorporates machine learning models to predict energy demand and optimize charging strategies.
+
 ## Technologies Used
 
 - Python
@@ -51,3 +63,4 @@ Working on a project related to machine learning-based seismic risk assessment u
 - Pandas
 - NumPy
 - Matplotlib/Seaborn for visualization
+
