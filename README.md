@@ -1,41 +1,53 @@
-Crime Data Analysis using Machine Learning Algorithms
-Project Overview
-This project analyzes a crime dataset from the UCI Machine Learning repository titled 'Crime and Communities'. The dataset consists of a large number of numerical columns, making it ideal for applying various machine learning algorithms. The goal of the analysis is to predict crime attributes such as Rape, Murder, Larceny, Robbery, Assault, Burglaries, Auto-theft, and Arsons by applying different machine learning models.
+# Machine Learning Projects
 
-Dataset Description
-The dataset contains information about:
+This repository contains various machine learning projects focusing on predictive modeling, deep learning, and risk assessment using diverse datasets and methods.
 
-Community names
-County codes
-Community codes
-Urban population percentage
-Age-based population
-Gender-based population
-Race-based population
-These features help predict the occurrence of crimes. A binary label is created to predict whether a crime will occur based on selected features.
+## Table of Contents
 
-Enrichment Dataset
-To enhance the dataset, we added a missing state column using the enrichment dataset (cities.json) containing mappings of latitude and longitude coordinates to respective cities and states. The enrichment dataset can be found here.
+- [Project 1: Geolocation Prediction](#project-1-geolocation-prediction)
+- [Project 2: Crime Analysis](#project-2-crime-analysis)
+- [Project 3: Seismic Risk Assessment](#project-3-seismic-risk-assessment)
+- [Technologies Used](#technologies-used)
 
-Machine Learning Algorithms Applied
-Several machine learning algorithms were applied to the dataset to perform classification, regression, and clustering tasks. The algorithms include:
+## Project 1: Geolocation Prediction
 
-KMeans
-GMM (Gaussian Mixture Model)
-Linear Regression
-Logistic Regression
-Decision Trees
-Naive Bayes
-Random Forests
-Support Vector Machine (SVM)
-Principal Component Analysis (PCA)
-K-Nearest Neighbors (KNN)
-Analysis and Metrics
-Each algorithm was evaluated based on its ability to predict crime attributes. The following metrics were used for evaluation:
+### Description
+Developed a multimodal deep learning model for geolocation prediction based on Twitter texts and timestamps. This model achieved a Root Mean Squared Error (RMSE) of **10.615**, outperforming traditional unimodal methods.
 
-Accuracy
-F1 Score
-Root Mean Squared (RMS) Value
-Confusion Matrix
-Conclusion
-By applying the above machine learning algorithms, we were able to analyze the crime patterns effectively. The results from the classification, regression, and clustering models were used to form insights into crime occurrence across different communities, providing valuable information for crime prevention and resource allocation.
+### Key Features
+- Utilizes both text data from tweets and temporal information for improved accuracy.
+- Demonstrates the effectiveness of multimodal approaches in geographical predictions.
+
+### Results
+- RMSE: **10.615**
+- Surpassed unimodal methods in performance.
+
+## Project 2: Crime Analysis
+
+### Description
+Developed predictive models for crime analysis using Random Forest algorithms. The project focuses on analyzing crime data to identify patterns and predict crime occurrences.
+
+### Key Features
+- Implements machine learning techniques to classify and predict crime-related events.
+- Achieved an accuracy of **86.86%** using the Random Forest model.
+
+### Results
+- Accuracy: **86.86%**
+
+## Project 3: Seismic Risk Assessment
+
+### Description
+Working on a project related to machine learning-based seismic risk assessment using street view images. This project aims to analyze urban structures to evaluate potential risks associated with seismic events.
+
+### Key Features
+- Leverages street view images to gather data on building types and conditions.
+- Utilizes machine learning techniques to assess risk and vulnerability.
+
+## Technologies Used
+
+- Python
+- TensorFlow/Keras
+- Scikit-learn
+- Pandas
+- NumPy
+- Matplotlib/Seaborn for visualization
