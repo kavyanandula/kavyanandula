@@ -9,7 +9,7 @@ This repository contains various machine learning projects focusing on predictiv
 - [Project 3: Seismic Risk Assessment](#project-3-seismic-risk-assessment)
 - [Project 4: EV Energy Optimization](#project-4-ev-energy-optimization)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
+
 
 
 ## Project 1: Geolocation Prediction
