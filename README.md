@@ -25,10 +25,40 @@ Developed a multimodal deep learning model for geolocation prediction based on T
 - RMSE: **10.615**
 - Surpassed unimodal methods in performance.
 
-## Project 2: Crime Analysis
+## Project 2: Crime Data Analysis
 
 ### Description
-Developed predictive models for crime analysis using Random Forest algorithms. The project focuses on analyzing crime data to identify patterns and predict crime occurrences.
+This project analyzes crime data using machine learning algorithms from the UCI Machine Learning repository, titled **"Crime and Communities."** The dataset contains numerous numerical columns, making it suitable for machine learning applications without the need for extensive categorical data conversion.
+
+### Dataset Overview
+- **Source:** [Crime and Communities Dataset](https://www.kaggle.com/kkanda/analyzing-uci-crime-and-communities-dataset/data)
+- **Features:** The dataset includes attributes such as Rape, Murder, Larceny, Robbery, Assault, Burglaries, Autotheft, and Arsons, along with community demographics like urban population percentage, age distribution, gender distribution, and racial distribution.
+
+### Data Enrichment
+- The state column was added using an enrichment dataset, **cities.json,** which maps latitude and longitude coordinates to their respective cities and states.
+
+### Machine Learning Algorithms Applied
+The following algorithms were utilized for various types of analyses based on the problem type (classification, regression, or clustering):
+- KMeans
+- Gaussian Mixture Model (GMM)
+- Linear Regression
+- Logistic Regression
+- Decision Trees
+- Naive Bayes
+- Random Forest
+- Support Vector Machine (SVM)
+- Principal Component Analysis (PCA)
+- K-Nearest Neighbors (KNN)
+
+### Evaluation Metrics
+We evaluated model performance using various metrics, including:
+- Accuracy
+- F1 Score
+- Root Mean Square Error (RMSE)
+- Confusion Matrix
+
+### Conclusion
+The analysis forms a comprehensive story that highlights key insights into crime occurrence and the effectiveness of different machine learning algorithms in predicting crime patterns.
 
 ### Key Features
 - Implements machine learning techniques to classify and predict crime-related events.
@@ -54,6 +84,7 @@ Currently working on optimizing electric vehicle (EV) energy consumption at the 
 ### Key Features
 - Analyzes household energy usage patterns to determine optimal charging times and methods.
 - Incorporates machine learning models to predict energy demand and optimize charging strategies.
+
 
 ## Technologies Used
 
