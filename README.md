@@ -78,26 +78,37 @@ Working on a project related to machine learning-based seismic risk assessment u
 
 ## Project 4: EV Energy Optimization
 
-Project 4: EV Energy Optimization
-Description
+### Description
 The EV Energy Optimization project focuses on enhancing electric vehicle (EV) energy consumption at the household level. The objective is to improve energy efficiency and reduce costs associated with EV charging by analyzing household energy usage patterns and optimizing charging strategies using machine learning and time series analysis.
 
+### Time Series Use Case
 In this project, time series analysis is employed to understand and predict household energy consumption patterns over time. By utilizing historical energy usage data, the project aims to identify trends, seasonal variations, and anomalies in energy demand, which are crucial for optimizing EV charging strategies.
 
-Key Objectives of Time Series Analysis:
--Trend Analysis: Identify long-term trends in household energy consumption and EV charging patterns to understand how energy usage evolves over time.
--Seasonal Decomposition: Analyze seasonal effects on energy consumption, such as increased usage during specific months or days (e.g., weekends, holidays) that could impact optimal charging times.
--Anomaly Detection: Detect unusual spikes or drops in energy consumption, which may indicate issues with charging infrastructure or abnormal household activity.
--Forecasting: Utilize historical data to forecast future energy consumption, helping to predict optimal times for EV charging based on anticipated energy demand.
--Data Sources
-Historical energy usage data from smart meters or household energy monitoring systems from Norway are being considered.
-EV charging data, including timestamps and energy consumption details.
-Weather data (optional), which may impact energy consumption patterns (e.g., temperature affecting heating or cooling needs).
-Methodology
--Data Preprocessing: Clean and preprocess the time series data to handle missing values, outliers, and ensure consistency in timestamps.
--Exploratory Data Analysis (EDA): Visualize energy consumption patterns to identify trends, seasonalities, and correlations with other factors (like temperature).
--Time Series Modeling: Apply time series forecasting techniques (e.g., ARIMA, SARIMA, or Prophet) to predict future energy consumption.
--Optimization Strategy: Develop machine learning models (e.g., Regression models, Decision Trees) to determine optimal charging times based on forecasted energy demand and cost.
+#### Key Objectives of Time Series Analysis:
+- **Trend Analysis**: Identify long-term trends in household energy consumption and EV charging patterns to understand how energy usage evolves over time.
+- **Seasonal Decomposition**: Analyze seasonal effects on energy consumption, such as increased usage during specific months or days (e.g., weekends, holidays) that could impact optimal charging times.
+- **Anomaly Detection**: Detect unusual spikes or drops in energy consumption, which may indicate issues with charging infrastructure or abnormal household activity.
+- **Forecasting**: Utilize historical data to forecast future energy consumption, helping to predict optimal times for EV charging based on anticipated energy demand.
+
+### Data Sources
+- Residential electric vehicle charging datasets from apartment buildings- Norway.
+
+
+### Methodology
+1. **Data Preprocessing**: Clean and preprocess the time series data to handle missing values, outliers, and ensure consistency in timestamps.
+2. **Exploratory Data Analysis (EDA)**: Visualize energy consumption patterns to identify trends, seasonalities, and correlations with other factors (like temperature).
+3. **Time Series Modeling**: Apply time series forecasting techniques (e.g., ARIMA, SARIMA, or Prophet) to predict future energy consumption.
+4. **Optimization Strategy**: Develop machine learning models (e.g., Regression models, Decision Trees) to determine optimal charging times based on forecasted energy demand and cost.
+5. **Validation**: Evaluate the accuracy of the forecasting models and the effectiveness of the optimization strategy using appropriate metrics (e.g., RMSE, MAE).
+
+### Technologies Used
+- **Python**: For data analysis and modeling.
+- **Pandas**: For data manipulation and preprocessing.
+- **NumPy**: For numerical operations.
+- **Matplotlib/Seaborn**: For data visualization.
+- **Scikit-learn**: For implementing machine learning models.
+- **Statsmodels**: For time series analysis and forecasting.
+
 
 
 
